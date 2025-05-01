@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\WandleWheelhouse.Api.props" />
+</Project>

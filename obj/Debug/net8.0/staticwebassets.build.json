@@ -1,12 +1,1464 @@
 {
   "Version": 1,
-  "Hash": "Hb8J02QcgQ328aToVWSkxfooPMANLwfIATMusY9uK4g=",
+  "Hash": "KGWa2xNY7oQwMNspA1dlGrTyPEn3PF7o6vHtyotaqPA=",
   "Source": "WandleWheelhouse.Api",
   "BasePath": "_content/WandleWheelhouse.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "WandleWheelhouse.Api\\wwwroot",
+      "Source": "WandleWheelhouse.Api",
+      "ContentRoot": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\",
+      "BasePath": "_content/WandleWheelhouse.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\061736e1-8bb3-4db8-9310-fb6a1416b39d.jpg",
+      "SourceId": "WandleWheelhouse.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\",
+      "BasePath": "_content/WandleWheelhouse.Api",
+      "RelativePath": "uploads/avatars/061736e1-8bb3-4db8-9310-fb6a1416b39d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "clwliffrqq",
+      "Integrity": "QDbhR9zS4oU2DE1THBtQZv0nnc+Y6sLrbloS3z6k1HA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\061736e1-8bb3-4db8-9310-fb6a1416b39d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\0fea1ca6-fffd-436b-9945-dd4bc107cf5a.jpg",
+      "SourceId": "WandleWheelhouse.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\",
+      "BasePath": "_content/WandleWheelhouse.Api",
+      "RelativePath": "uploads/avatars/0fea1ca6-fffd-436b-9945-dd4bc107cf5a#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jzyoef4g79",
+      "Integrity": "H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\0fea1ca6-fffd-436b-9945-dd4bc107cf5a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\20129877-7dea-4c14-be42-3472fa8c52a2.jpg",
+      "SourceId": "WandleWheelhouse.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\",
+      "BasePath": "_content/WandleWheelhouse.Api",
+      "RelativePath": "uploads/avatars/20129877-7dea-4c14-be42-3472fa8c52a2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lsyr286yav",
+      "Integrity": "5SqB7+NZOd9J5+YX4U/OSc5nYdujrM08oIOE7Pdlfms=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\20129877-7dea-4c14-be42-3472fa8c52a2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\2aa3b352-2e8d-4908-bd6f-3b78c1aea1fa.jpg",
+      "SourceId": "WandleWheelhouse.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\",
+      "BasePath": "_content/WandleWheelhouse.Api",
+      "RelativePath": "uploads/avatars/2aa3b352-2e8d-4908-bd6f-3b78c1aea1fa#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jzyoef4g79",
+      "Integrity": "H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\2aa3b352-2e8d-4908-bd6f-3b78c1aea1fa.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\41c79f74-c21b-42c0-8d2d-21edce7202d4.jpg",
+      "SourceId": "WandleWheelhouse.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\",
+      "BasePath": "_content/WandleWheelhouse.Api",
+      "RelativePath": "uploads/avatars/41c79f74-c21b-42c0-8d2d-21edce7202d4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lhlbywdym8",
+      "Integrity": "d4z9UYpzqJuPZoFp5o9eCfBEGW41X8QHlXFB0Nk/LDA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\41c79f74-c21b-42c0-8d2d-21edce7202d4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\4c6da68d-e24c-4338-8858-12f9578e11da.jpg",
+      "SourceId": "WandleWheelhouse.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\",
+      "BasePath": "_content/WandleWheelhouse.Api",
+      "RelativePath": "uploads/avatars/4c6da68d-e24c-4338-8858-12f9578e11da#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b2c3jbtxs1",
+      "Integrity": "LZHmThenfizXJcizY51Kh2mSw4p7OP+A+LcVml3YQUw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\4c6da68d-e24c-4338-8858-12f9578e11da.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\4d4a1a2b-449b-4b80-bff2-85b64002653a.jpg",
+      "SourceId": "WandleWheelhouse.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\",
+      "BasePath": "_content/WandleWheelhouse.Api",
+      "RelativePath": "uploads/avatars/4d4a1a2b-449b-4b80-bff2-85b64002653a#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lhlbywdym8",
+      "Integrity": "d4z9UYpzqJuPZoFp5o9eCfBEGW41X8QHlXFB0Nk/LDA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\4d4a1a2b-449b-4b80-bff2-85b64002653a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\66a8f295-8fb1-4855-98d1-63c47c354c92.jpg",
+      "SourceId": "WandleWheelhouse.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\",
+      "BasePath": "_content/WandleWheelhouse.Api",
+      "RelativePath": "uploads/avatars/66a8f295-8fb1-4855-98d1-63c47c354c92#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lhlbywdym8",
+      "Integrity": "d4z9UYpzqJuPZoFp5o9eCfBEGW41X8QHlXFB0Nk/LDA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\66a8f295-8fb1-4855-98d1-63c47c354c92.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\6a05adc5-4fad-44af-9e44-30fc888fe6a6.jpg",
+      "SourceId": "WandleWheelhouse.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\",
+      "BasePath": "_content/WandleWheelhouse.Api",
+      "RelativePath": "uploads/avatars/6a05adc5-4fad-44af-9e44-30fc888fe6a6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jzyoef4g79",
+      "Integrity": "H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\6a05adc5-4fad-44af-9e44-30fc888fe6a6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\7072d448-0cf2-4951-a03b-348b6785323c.jpg",
+      "SourceId": "WandleWheelhouse.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\",
+      "BasePath": "_content/WandleWheelhouse.Api",
+      "RelativePath": "uploads/avatars/7072d448-0cf2-4951-a03b-348b6785323c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jzyoef4g79",
+      "Integrity": "H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\7072d448-0cf2-4951-a03b-348b6785323c.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\7d298337-8621-4f8d-b37c-fc1fe9f8c7a6.png",
+      "SourceId": "WandleWheelhouse.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\",
+      "BasePath": "_content/WandleWheelhouse.Api",
+      "RelativePath": "uploads/avatars/7d298337-8621-4f8d-b37c-fc1fe9f8c7a6#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ebbkglzo7t",
+      "Integrity": "ttVHATT9c/qAjYZBjRdX+n5zgwdT5MMYTPmBTGZCB9I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\7d298337-8621-4f8d-b37c-fc1fe9f8c7a6.png"
+    },
+    {
+      "Identity": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\87e6c33f-f6b7-46b5-a9cb-37996f274f07.jpg",
+      "SourceId": "WandleWheelhouse.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\",
+      "BasePath": "_content/WandleWheelhouse.Api",
+      "RelativePath": "uploads/avatars/87e6c33f-f6b7-46b5-a9cb-37996f274f07#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "clwliffrqq",
+      "Integrity": "QDbhR9zS4oU2DE1THBtQZv0nnc+Y6sLrbloS3z6k1HA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\87e6c33f-f6b7-46b5-a9cb-37996f274f07.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\9103df17-799f-4fb7-9744-0466e34ee138.jpg",
+      "SourceId": "WandleWheelhouse.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\",
+      "BasePath": "_content/WandleWheelhouse.Api",
+      "RelativePath": "uploads/avatars/9103df17-799f-4fb7-9744-0466e34ee138#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "clwliffrqq",
+      "Integrity": "QDbhR9zS4oU2DE1THBtQZv0nnc+Y6sLrbloS3z6k1HA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\9103df17-799f-4fb7-9744-0466e34ee138.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\a3c7d56a-a6b6-4c4b-b979-25c6dd4c53a0.jpg",
+      "SourceId": "WandleWheelhouse.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\",
+      "BasePath": "_content/WandleWheelhouse.Api",
+      "RelativePath": "uploads/avatars/a3c7d56a-a6b6-4c4b-b979-25c6dd4c53a0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b2c3jbtxs1",
+      "Integrity": "LZHmThenfizXJcizY51Kh2mSw4p7OP+A+LcVml3YQUw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\a3c7d56a-a6b6-4c4b-b979-25c6dd4c53a0.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/avatars/061736e1-8bb3-4db8-9310-fb6a1416b39d.clwliffrqq.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\061736e1-8bb3-4db8-9310-fb6a1416b39d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QDbhR9zS4oU2DE1THBtQZv0nnc+Y6sLrbloS3z6k1HA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 16:44:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "clwliffrqq"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/061736e1-8bb3-4db8-9310-fb6a1416b39d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QDbhR9zS4oU2DE1THBtQZv0nnc+Y6sLrbloS3z6k1HA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/061736e1-8bb3-4db8-9310-fb6a1416b39d.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\061736e1-8bb3-4db8-9310-fb6a1416b39d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QDbhR9zS4oU2DE1THBtQZv0nnc+Y6sLrbloS3z6k1HA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 16:44:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QDbhR9zS4oU2DE1THBtQZv0nnc+Y6sLrbloS3z6k1HA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/0fea1ca6-fffd-436b-9945-dd4bc107cf5a.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\0fea1ca6-fffd-436b-9945-dd4bc107cf5a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "194868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:24:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/0fea1ca6-fffd-436b-9945-dd4bc107cf5a.jzyoef4g79.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\0fea1ca6-fffd-436b-9945-dd4bc107cf5a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "194868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:24:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jzyoef4g79"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/0fea1ca6-fffd-436b-9945-dd4bc107cf5a.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/20129877-7dea-4c14-be42-3472fa8c52a2.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\20129877-7dea-4c14-be42-3472fa8c52a2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5SqB7+NZOd9J5+YX4U/OSc5nYdujrM08oIOE7Pdlfms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 17:15:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5SqB7+NZOd9J5+YX4U/OSc5nYdujrM08oIOE7Pdlfms="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/20129877-7dea-4c14-be42-3472fa8c52a2.lsyr286yav.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\20129877-7dea-4c14-be42-3472fa8c52a2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5SqB7+NZOd9J5+YX4U/OSc5nYdujrM08oIOE7Pdlfms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 17:15:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lsyr286yav"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/20129877-7dea-4c14-be42-3472fa8c52a2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5SqB7+NZOd9J5+YX4U/OSc5nYdujrM08oIOE7Pdlfms="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/2aa3b352-2e8d-4908-bd6f-3b78c1aea1fa.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\2aa3b352-2e8d-4908-bd6f-3b78c1aea1fa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "194868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 15:17:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/2aa3b352-2e8d-4908-bd6f-3b78c1aea1fa.jzyoef4g79.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\2aa3b352-2e8d-4908-bd6f-3b78c1aea1fa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "194868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 15:17:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jzyoef4g79"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/2aa3b352-2e8d-4908-bd6f-3b78c1aea1fa.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/41c79f74-c21b-42c0-8d2d-21edce7202d4.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\41c79f74-c21b-42c0-8d2d-21edce7202d4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "262006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d4z9UYpzqJuPZoFp5o9eCfBEGW41X8QHlXFB0Nk/LDA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 16:55:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d4z9UYpzqJuPZoFp5o9eCfBEGW41X8QHlXFB0Nk/LDA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/41c79f74-c21b-42c0-8d2d-21edce7202d4.lhlbywdym8.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\41c79f74-c21b-42c0-8d2d-21edce7202d4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "262006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d4z9UYpzqJuPZoFp5o9eCfBEGW41X8QHlXFB0Nk/LDA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 16:55:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lhlbywdym8"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/41c79f74-c21b-42c0-8d2d-21edce7202d4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d4z9UYpzqJuPZoFp5o9eCfBEGW41X8QHlXFB0Nk/LDA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/4c6da68d-e24c-4338-8858-12f9578e11da.b2c3jbtxs1.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\4c6da68d-e24c-4338-8858-12f9578e11da.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LZHmThenfizXJcizY51Kh2mSw4p7OP+A+LcVml3YQUw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 05:35:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b2c3jbtxs1"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/4c6da68d-e24c-4338-8858-12f9578e11da.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LZHmThenfizXJcizY51Kh2mSw4p7OP+A+LcVml3YQUw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/4c6da68d-e24c-4338-8858-12f9578e11da.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\4c6da68d-e24c-4338-8858-12f9578e11da.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LZHmThenfizXJcizY51Kh2mSw4p7OP+A+LcVml3YQUw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 05:35:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LZHmThenfizXJcizY51Kh2mSw4p7OP+A+LcVml3YQUw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/4d4a1a2b-449b-4b80-bff2-85b64002653a.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\4d4a1a2b-449b-4b80-bff2-85b64002653a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "262006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d4z9UYpzqJuPZoFp5o9eCfBEGW41X8QHlXFB0Nk/LDA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 17:44:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d4z9UYpzqJuPZoFp5o9eCfBEGW41X8QHlXFB0Nk/LDA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/4d4a1a2b-449b-4b80-bff2-85b64002653a.lhlbywdym8.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\4d4a1a2b-449b-4b80-bff2-85b64002653a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "262006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d4z9UYpzqJuPZoFp5o9eCfBEGW41X8QHlXFB0Nk/LDA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 17:44:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lhlbywdym8"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/4d4a1a2b-449b-4b80-bff2-85b64002653a.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d4z9UYpzqJuPZoFp5o9eCfBEGW41X8QHlXFB0Nk/LDA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/66a8f295-8fb1-4855-98d1-63c47c354c92.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\66a8f295-8fb1-4855-98d1-63c47c354c92.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "262006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d4z9UYpzqJuPZoFp5o9eCfBEGW41X8QHlXFB0Nk/LDA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 16:30:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d4z9UYpzqJuPZoFp5o9eCfBEGW41X8QHlXFB0Nk/LDA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/66a8f295-8fb1-4855-98d1-63c47c354c92.lhlbywdym8.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\66a8f295-8fb1-4855-98d1-63c47c354c92.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "262006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d4z9UYpzqJuPZoFp5o9eCfBEGW41X8QHlXFB0Nk/LDA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 16:30:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lhlbywdym8"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/66a8f295-8fb1-4855-98d1-63c47c354c92.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d4z9UYpzqJuPZoFp5o9eCfBEGW41X8QHlXFB0Nk/LDA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/6a05adc5-4fad-44af-9e44-30fc888fe6a6.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\6a05adc5-4fad-44af-9e44-30fc888fe6a6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "194868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 18:32:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/6a05adc5-4fad-44af-9e44-30fc888fe6a6.jzyoef4g79.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\6a05adc5-4fad-44af-9e44-30fc888fe6a6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "194868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 18:32:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jzyoef4g79"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/6a05adc5-4fad-44af-9e44-30fc888fe6a6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/7072d448-0cf2-4951-a03b-348b6785323c.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\7072d448-0cf2-4951-a03b-348b6785323c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "194868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 17:10:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/7072d448-0cf2-4951-a03b-348b6785323c.jzyoef4g79.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\7072d448-0cf2-4951-a03b-348b6785323c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "194868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 17:10:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jzyoef4g79"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/7072d448-0cf2-4951-a03b-348b6785323c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H3HDUPztvFhlhSi+Rrep1+l7JTTaFllBTVLsF5ZC9/E="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/7d298337-8621-4f8d-b37c-fc1fe9f8c7a6.ebbkglzo7t.png",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\7d298337-8621-4f8d-b37c-fc1fe9f8c7a6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "745124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ttVHATT9c/qAjYZBjRdX+n5zgwdT5MMYTPmBTGZCB9I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 19:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ebbkglzo7t"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/7d298337-8621-4f8d-b37c-fc1fe9f8c7a6.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ttVHATT9c/qAjYZBjRdX+n5zgwdT5MMYTPmBTGZCB9I="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/7d298337-8621-4f8d-b37c-fc1fe9f8c7a6.png",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\7d298337-8621-4f8d-b37c-fc1fe9f8c7a6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "745124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ttVHATT9c/qAjYZBjRdX+n5zgwdT5MMYTPmBTGZCB9I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 19:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ttVHATT9c/qAjYZBjRdX+n5zgwdT5MMYTPmBTGZCB9I="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/87e6c33f-f6b7-46b5-a9cb-37996f274f07.clwliffrqq.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\87e6c33f-f6b7-46b5-a9cb-37996f274f07.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QDbhR9zS4oU2DE1THBtQZv0nnc+Y6sLrbloS3z6k1HA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 04:57:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "clwliffrqq"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/87e6c33f-f6b7-46b5-a9cb-37996f274f07.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QDbhR9zS4oU2DE1THBtQZv0nnc+Y6sLrbloS3z6k1HA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/87e6c33f-f6b7-46b5-a9cb-37996f274f07.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\87e6c33f-f6b7-46b5-a9cb-37996f274f07.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QDbhR9zS4oU2DE1THBtQZv0nnc+Y6sLrbloS3z6k1HA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 04:57:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QDbhR9zS4oU2DE1THBtQZv0nnc+Y6sLrbloS3z6k1HA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/9103df17-799f-4fb7-9744-0466e34ee138.clwliffrqq.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\9103df17-799f-4fb7-9744-0466e34ee138.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QDbhR9zS4oU2DE1THBtQZv0nnc+Y6sLrbloS3z6k1HA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 17:01:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "clwliffrqq"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/9103df17-799f-4fb7-9744-0466e34ee138.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QDbhR9zS4oU2DE1THBtQZv0nnc+Y6sLrbloS3z6k1HA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/9103df17-799f-4fb7-9744-0466e34ee138.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\9103df17-799f-4fb7-9744-0466e34ee138.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QDbhR9zS4oU2DE1THBtQZv0nnc+Y6sLrbloS3z6k1HA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 17:01:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QDbhR9zS4oU2DE1THBtQZv0nnc+Y6sLrbloS3z6k1HA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/a3c7d56a-a6b6-4c4b-b979-25c6dd4c53a0.b2c3jbtxs1.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\a3c7d56a-a6b6-4c4b-b979-25c6dd4c53a0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LZHmThenfizXJcizY51Kh2mSw4p7OP+A+LcVml3YQUw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 17:11:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b2c3jbtxs1"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/a3c7d56a-a6b6-4c4b-b979-25c6dd4c53a0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LZHmThenfizXJcizY51Kh2mSw4p7OP+A+LcVml3YQUw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/a3c7d56a-a6b6-4c4b-b979-25c6dd4c53a0.jpg",
+      "AssetFile": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\a3c7d56a-a6b6-4c4b-b979-25c6dd4c53a0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LZHmThenfizXJcizY51Kh2mSw4p7OP+A+LcVml3YQUw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 17:11:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LZHmThenfizXJcizY51Kh2mSw4p7OP+A+LcVml3YQUw="
+        }
+      ]
+    }
+  ]
 }

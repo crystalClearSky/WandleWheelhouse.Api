@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\061736e1-8bb3-4db8-9310-fb6a1416b39d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\061736e1-8bb3-4db8-9310-fb6a1416b39d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\0fea1ca6-fffd-436b-9945-dd4bc107cf5a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\0fea1ca6-fffd-436b-9945-dd4bc107cf5a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\20129877-7dea-4c14-be42-3472fa8c52a2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\20129877-7dea-4c14-be42-3472fa8c52a2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\2aa3b352-2e8d-4908-bd6f-3b78c1aea1fa.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\2aa3b352-2e8d-4908-bd6f-3b78c1aea1fa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\41c79f74-c21b-42c0-8d2d-21edce7202d4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\41c79f74-c21b-42c0-8d2d-21edce7202d4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\4c6da68d-e24c-4338-8858-12f9578e11da.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\4c6da68d-e24c-4338-8858-12f9578e11da.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\4d4a1a2b-449b-4b80-bff2-85b64002653a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\4d4a1a2b-449b-4b80-bff2-85b64002653a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\66a8f295-8fb1-4855-98d1-63c47c354c92.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\66a8f295-8fb1-4855-98d1-63c47c354c92.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\6a05adc5-4fad-44af-9e44-30fc888fe6a6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\6a05adc5-4fad-44af-9e44-30fc888fe6a6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\7072d448-0cf2-4951-a03b-348b6785323c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\7072d448-0cf2-4951-a03b-348b6785323c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\7d298337-8621-4f8d-b37c-fc1fe9f8c7a6.png",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\7d298337-8621-4f8d-b37c-fc1fe9f8c7a6.png"
+    },
+    {
+      "Id": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\87e6c33f-f6b7-46b5-a9cb-37996f274f07.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\87e6c33f-f6b7-46b5-a9cb-37996f274f07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\9103df17-799f-4fb7-9744-0466e34ee138.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\9103df17-799f-4fb7-9744-0466e34ee138.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Justice\\Desktop\\Projects\\Web Development\\Project 29042025\\WandleWheelhouse\\src\\WandleWheelhouse.Api\\wwwroot\\uploads\\avatars\\a3c7d56a-a6b6-4c4b-b979-25c6dd4c53a0.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\a3c7d56a-a6b6-4c4b-b979-25c6dd4c53a0.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WandleWheelhouse.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WandleWheelhouse.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WandleWheelhouse.Api.props",
+      "PackagePath": "build\\WandleWheelhouse.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WandleWheelhouse.Api.props",
+      "PackagePath": "buildMultiTargeting\\WandleWheelhouse.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WandleWheelhouse.Api.props",
+      "PackagePath": "buildTransitive\\WandleWheelhouse.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

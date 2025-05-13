@@ -106,30 +106,68 @@ builder.Services.AddAuthorization(options =>
 });
 
 // CORS Configuration (Global)
+// Inside Program.cs -> Service Configuration section
+// LOCAL //
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowWebApp",
+    options.AddPolicy("AllowWebApp", // Name this policy
         policyBuilder =>
         {
             List<string> allowedOrigins = new List<string>();
-            if (isDevelopment)
+            if (isDevelopment) // Check if this is true when you run
             {
+                // Add YOUR specific frontend development URL(s)
+                allowedOrigins.Add("http://localhost:5174"); // <-- ADD THIS
+                allowedOrigins.Add("http://127.0.0.1:5174"); // <-- AND THIS (Good practice)
+
+                // Keep existing ones if needed (e.g., Vite default, Swagger)
                 allowedOrigins.Add("http://localhost:5173");
                 allowedOrigins.Add("http://127.0.0.1:5173");
+                allowedOrigins.Add("http://localhost:8080"); // <-- ADD THIS (for client container)
+                allowedOrigins.Add("http://127.0.0.1:8080"); // <-- AND THIS
                 allowedOrigins.Add($"https://localhost:{builder.Configuration.GetValue<int>("HttpsPort", 7136)}");
                 allowedOrigins.Add($"http://localhost:{builder.Configuration.GetValue<int>("HttpPort", 5041)}");
             }
             else
             {
+                // Production frontend URL(s)
                 allowedOrigins.Add("https://wandlewheelhouse.org"); // Replace with actual prod URL
             }
 
-            policyBuilder.WithOrigins(allowedOrigins.ToArray())
+            policyBuilder.WithOrigins(allowedOrigins.ToArray()) // Use the updated list
                          .AllowAnyHeader()
                          .AllowAnyMethod()
-                         .AllowCredentials();
+                         .AllowCredentials(); // Allow credentials (needed for auth)
         });
 });
+/////
+
+// Docker //
+// builder.Services.AddCors(options =>
+// {
+//     options.AddPolicy("AllowWebApp",
+//         policyBuilder =>
+//         {
+//             List<string> allowedOrigins = new List<string>();
+//             if (isDevelopment)
+//             {
+//                 allowedOrigins.Add("http://localhost:5174"); // Old Vite dev server
+//                 allowedOrigins.Add("http://127.0.0.1:5174");
+//                 allowedOrigins.Add("http://localhost:8080"); // <-- ADD THIS (for client container)
+//                 allowedOrigins.Add("http://127.0.0.1:8080"); // <-- AND THIS
+
+//                 // Keep Swagger origins
+//                 allowedOrigins.Add($"https://localhost:{builder.Configuration.GetValue<int>("HttpsPort", 7136)}");
+//                 allowedOrigins.Add($"http://localhost:{builder.Configuration.GetValue<int>("HttpPort", 5041)}");
+//             }
+//             // ... rest of your CORS config ...
+//             policyBuilder.WithOrigins(allowedOrigins.ToArray())
+//                          .AllowAnyHeader()
+//                          .AllowAnyMethod()
+//                          .AllowCredentials();
+//         });
+// });
+//////
 
 // Controller Services
 builder.Services.AddControllers();
@@ -168,19 +206,21 @@ builder.Services.AddSwaggerGen(options =>
     // Include XML Comments
     try
     {
-         var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-         var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFilename);
-         if (File.Exists(xmlPath))
-         {
-             options.IncludeXmlComments(xmlPath);
-             Console.WriteLine($"Successfully included XML comments from: {xmlPath}");
-         } else {
-             Console.WriteLine($"XML comment file not found at: {xmlPath}");
-         }
+        var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+        var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFilename);
+        if (File.Exists(xmlPath))
+        {
+            options.IncludeXmlComments(xmlPath);
+            Console.WriteLine($"Successfully included XML comments from: {xmlPath}");
+        }
+        else
+        {
+            Console.WriteLine($"XML comment file not found at: {xmlPath}");
+        }
     }
-    catch(Exception ex)
+    catch (Exception ex)
     {
-         Console.WriteLine($"Error including XML comments: {ex.Message}");
+        Console.WriteLine($"Error including XML comments: {ex.Message}");
     }
 
     // --- Register the Custom Operation Filter for File Uploads ---
@@ -196,8 +236,42 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 // --- 2. Configure HTTP Request Pipeline ---
 
 var app = builder.Build();
+///////
+// Ensure this is placed AFTER builder.Build() and BEFORE app.Run()
+if (app.Environment.IsDevelopment()) // Or a specific configuration check
+{
+    using (var scope = app.Services.CreateScope())
+    {
+        var services = scope.ServiceProvider;
+        try
+        {
+            var context = services.GetRequiredService<ApplicationDbContext>();
+            if (context.Database.GetPendingMigrations().Any())
+            {
+                app.Logger.LogInformation("Applying pending database migrations...");
+                await context.Database.MigrateAsync(); // Applies pending migrations
+                app.Logger.LogInformation("Database migrations applied successfully.");
+            }
+            else
+            {
+                app.Logger.LogInformation("No pending database migrations to apply.");
+            }
+
+            // Optional: Seed data if needed after migrations
+            // await SeedData.Initialize(services); // Example call if you have a seeder
+        }
+        catch (Exception ex)
+        {
+            var logger = services.GetRequiredService<ILogger<Program>>();
+            logger.LogError(ex, "An error occurred while migrating or seeding the database.");
+            // Optionally, rethrow or handle as critical startup failure
+            // throw; // Re-throwing will stop the application if DB migration fails
+        }
+    }
+}
 
 // --- Development Only: Reset SQLite Database on Startup ---
+///////
 if (app.Environment.IsDevelopment())
 {
     // using (var scope = app.Services.CreateScope())
@@ -251,12 +325,8 @@ app.UseStaticFiles();
 var uploadsPath = Path.Combine(app.Environment.WebRootPath ?? Path.Combine(app.Environment.ContentRootPath, "wwwroot"), "uploads");
 if (!Directory.Exists(uploadsPath))
 {
-    try {
-         Directory.CreateDirectory(uploadsPath);
-         Console.WriteLine($"Created directory: {uploadsPath}");
-    } catch (Exception ex) {
-         Console.WriteLine($"Failed to create directory {uploadsPath}: {ex.Message}");
-    }
+    try { Directory.CreateDirectory(uploadsPath); app.Logger.LogInformation("Created directory: {UploadsPath}", uploadsPath); }
+    catch (Exception ex) { app.Logger.LogError(ex, "Failed to create directory {UploadsPath}", uploadsPath); }
 }
 
 app.UseStaticFiles(new StaticFileOptions

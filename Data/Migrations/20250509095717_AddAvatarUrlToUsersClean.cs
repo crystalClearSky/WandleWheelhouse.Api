@@ -5,10 +5,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace WandleWheelhouse.Api.Migrations
+namespace WandleWheelhouse.Api.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class AddAvatarUrlToUsersClean : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -39,6 +39,9 @@ namespace WandleWheelhouse.Api.Migrations
                     City = table.Column<string>(type: "TEXT", nullable: true),
                     PostCode = table.Column<string>(type: "TEXT", nullable: true),
                     Country = table.Column<string>(type: "TEXT", nullable: true),
+                    IsDeleted = table.Column<bool>(type: "INTEGER", nullable: false),
+                    DeletedAt = table.Column<DateTime>(type: "TEXT", nullable: true),
+                    AvatarUrl = table.Column<string>(type: "TEXT", maxLength: 2048, nullable: true),
                     UserName = table.Column<string>(type: "TEXT", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "TEXT", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "TEXT", maxLength: 256, nullable: true),
@@ -193,35 +196,6 @@ namespace WandleWheelhouse.Api.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Donations",
-                columns: table => new
-                {
-                    DonationId = table.Column<Guid>(type: "TEXT", nullable: false),
-                    Amount = table.Column<decimal>(type: "decimal(18, 2)", precision: 18, scale: 2, nullable: false),
-                    Method = table.Column<int>(type: "INTEGER", nullable: false),
-                    Status = table.Column<int>(type: "INTEGER", nullable: false),
-                    DonationDate = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    UserId = table.Column<string>(type: "TEXT", nullable: true),
-                    DonorFirstName = table.Column<string>(type: "TEXT", nullable: true),
-                    DonorLastName = table.Column<string>(type: "TEXT", nullable: true),
-                    DonorEmail = table.Column<string>(type: "TEXT", nullable: true),
-                    TransactionId = table.Column<string>(type: "TEXT", nullable: true),
-                    PaymentIntentId = table.Column<string>(type: "TEXT", nullable: true),
-                    CreatedAt = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    UpdatedAt = table.Column<DateTime>(type: "TEXT", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Donations", x => x.DonationId);
-                    table.ForeignKey(
-                        name: "FK_Donations_AspNetUsers_UserId",
-                        column: x => x.UserId,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.SetNull);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "NewsletterSubscriptions",
                 columns: table => new
                 {
@@ -257,7 +231,8 @@ namespace WandleWheelhouse.Api.Migrations
                     ProviderSubscriptionId = table.Column<string>(type: "TEXT", nullable: true),
                     LastTransactionId = table.Column<string>(type: "TEXT", nullable: true),
                     CreatedAt = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    UpdatedAt = table.Column<DateTime>(type: "TEXT", nullable: false)
+                    UpdatedAt = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    CancellationRequestedDate = table.Column<DateTime>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -268,6 +243,42 @@ namespace WandleWheelhouse.Api.Migrations
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Donations",
+                columns: table => new
+                {
+                    DonationId = table.Column<Guid>(type: "TEXT", nullable: false),
+                    Amount = table.Column<decimal>(type: "decimal(18, 2)", precision: 18, scale: 2, nullable: false),
+                    Method = table.Column<int>(type: "INTEGER", nullable: false),
+                    Status = table.Column<int>(type: "INTEGER", nullable: false),
+                    DonationDate = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    UserId = table.Column<string>(type: "TEXT", nullable: true),
+                    DonorFirstName = table.Column<string>(type: "TEXT", nullable: true),
+                    DonorLastName = table.Column<string>(type: "TEXT", nullable: true),
+                    DonorEmail = table.Column<string>(type: "TEXT", nullable: true),
+                    TransactionId = table.Column<string>(type: "TEXT", nullable: true),
+                    PaymentIntentId = table.Column<string>(type: "TEXT", nullable: true),
+                    IsRecurring = table.Column<bool>(type: "INTEGER", nullable: false),
+                    SubscriptionId = table.Column<Guid>(type: "TEXT", nullable: true),
+                    CreatedAt = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    UpdatedAt = table.Column<DateTime>(type: "TEXT", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Donations", x => x.DonationId);
+                    table.ForeignKey(
+                        name: "FK_Donations_AspNetUsers_UserId",
+                        column: x => x.UserId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.SetNull);
+                    table.ForeignKey(
+                        name: "FK_Donations_Subscriptions_SubscriptionId",
+                        column: x => x.SubscriptionId,
+                        principalTable: "Subscriptions",
+                        principalColumn: "SubscriptionId");
                 });
 
             migrationBuilder.InsertData(
@@ -323,6 +334,11 @@ namespace WandleWheelhouse.Api.Migrations
                 column: "AuthorId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Donations_SubscriptionId",
+                table: "Donations",
+                column: "SubscriptionId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Donations_UserId",
                 table: "Donations",
                 column: "UserId");
@@ -372,10 +388,10 @@ namespace WandleWheelhouse.Api.Migrations
                 name: "NewsletterSubscriptions");
 
             migrationBuilder.DropTable(
-                name: "Subscriptions");
+                name: "AspNetRoles");
 
             migrationBuilder.DropTable(
-                name: "AspNetRoles");
+                name: "Subscriptions");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");

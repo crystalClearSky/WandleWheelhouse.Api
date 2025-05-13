@@ -54,6 +54,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\20129877-7dea-4c14-be42-3472fa8c52a2.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\21957693-8790-4d3a-86c5-7cdb6ee19d33.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WandleWheelhouse.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WandleWheelhouse.Api</BasePath>
+      <RelativePath>uploads/avatars/21957693-8790-4d3a-86c5-7cdb6ee19d33.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cgyiodr6bf</Fingerprint>
+      <Integrity>7BpyQXYvz4952Se488aeBP1gTPYXlL7ozeQ8EtHwjtk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\21957693-8790-4d3a-86c5-7cdb6ee19d33.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\2aa3b352-2e8d-4908-bd6f-3b78c1aea1fa.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WandleWheelhouse.Api</SourceId>
@@ -126,6 +144,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\4d4a1a2b-449b-4b80-bff2-85b64002653a.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\602d09e4-0941-4ea5-8d14-38b9e2dd5e71.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WandleWheelhouse.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WandleWheelhouse.Api</BasePath>
+      <RelativePath>uploads/avatars/602d09e4-0941-4ea5-8d14-38b9e2dd5e71.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>u5vrs9tdu8</Fingerprint>
+      <Integrity>frlyr2ZcOuirFWPmQUwX4YxFDDbzLrnPd9kjZD4HC5Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\602d09e4-0941-4ea5-8d14-38b9e2dd5e71.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\66a8f295-8fb1-4855-98d1-63c47c354c92.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WandleWheelhouse.Api</SourceId>
@@ -161,6 +197,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\6a05adc5-4fad-44af-9e44-30fc888fe6a6.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\6db7d124-2cd1-421a-9374-1c5b5d419fea.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WandleWheelhouse.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WandleWheelhouse.Api</BasePath>
+      <RelativePath>uploads/avatars/6db7d124-2cd1-421a-9374-1c5b5d419fea.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>b2c3jbtxs1</Fingerprint>
+      <Integrity>LZHmThenfizXJcizY51Kh2mSw4p7OP+A+LcVml3YQUw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\6db7d124-2cd1-421a-9374-1c5b5d419fea.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\7072d448-0cf2-4951-a03b-348b6785323c.jpg'))">
       <SourceType>Package</SourceType>
@@ -251,6 +305,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\a3c7d56a-a6b6-4c4b-b979-25c6dd4c53a0.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\b0cc74da-bcca-499d-8a62-8e781a7275d5.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WandleWheelhouse.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WandleWheelhouse.Api</BasePath>
+      <RelativePath>uploads/avatars/b0cc74da-bcca-499d-8a62-8e781a7275d5.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hc433ftky9</Fingerprint>
+      <Integrity>P3iJ9RZjMrXtkK3T4nr3SpcKHK3VNAiJJxmaWVQhebI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\b0cc74da-bcca-499d-8a62-8e781a7275d5.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

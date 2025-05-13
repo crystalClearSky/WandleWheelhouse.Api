@@ -152,3 +152,6 @@ C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelho
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\obj\Debug\net8.0\ref\WandleWheelhouse.Api.dll
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\obj\Debug\net8.0\WandleWheelhouse.Api.sourcelink.json
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\WandleWheelhouse.Api.staticwebassets.runtime.json
+C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\AngleSharp.dll
+C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\AngleSharp.Css.dll
+C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\HtmlSanitizer.dll

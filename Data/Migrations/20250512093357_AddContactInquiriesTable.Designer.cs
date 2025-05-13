@@ -8,17 +8,17 @@ using WandleWheelhouse.Api.Data;
 
 #nullable disable
 
-namespace WandleWheelhouse.Api.Migrations
+namespace WandleWheelhouse.Api.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250429132011_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250512093357_AddContactInquiriesTable")]
+    partial class AddContactInquiriesTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "9.0.4");
+            modelBuilder.HasAnnotation("ProductVersion", "8.0.13");
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
@@ -218,6 +218,71 @@ namespace WandleWheelhouse.Api.Migrations
                     b.ToTable("BlogArticles");
                 });
 
+            modelBuilder.Entity("WandleWheelhouse.Api.Models.ContactInquiry", b =>
+                {
+                    b.Property<Guid>("ContactInquiryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(256)
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsArchived")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasMaxLength(2000)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("TEXT");
+
+                    b.Property<int?>("NumberOfAttendees")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("OrganizationName")
+                        .HasMaxLength(200)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasMaxLength(30)
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime?>("PreferredTourDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("SubmittedAt")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("TourGroupType")
+                        .HasMaxLength(50)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("ContactInquiryId");
+
+                    b.HasIndex("IsArchived");
+
+                    b.HasIndex("SubmittedAt");
+
+                    b.HasIndex("Type");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("ContactInquiries");
+                });
+
             modelBuilder.Entity("WandleWheelhouse.Api.Models.Donation", b =>
                 {
                     b.Property<Guid>("DonationId")
@@ -243,6 +308,9 @@ namespace WandleWheelhouse.Api.Migrations
                     b.Property<string>("DonorLastName")
                         .HasColumnType("TEXT");
 
+                    b.Property<bool>("IsRecurring")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int>("Method")
                         .HasColumnType("INTEGER");
 
@@ -251,6 +319,9 @@ namespace WandleWheelhouse.Api.Migrations
 
                     b.Property<int>("Status")
                         .HasColumnType("INTEGER");
+
+                    b.Property<Guid?>("SubscriptionId")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("TransactionId")
                         .HasColumnType("TEXT");
@@ -262,6 +333,8 @@ namespace WandleWheelhouse.Api.Migrations
                         .HasColumnType("TEXT");
 
                     b.HasKey("DonationId");
+
+                    b.HasIndex("SubscriptionId");
 
                     b.HasIndex("UserId");
 
@@ -305,6 +378,9 @@ namespace WandleWheelhouse.Api.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime?>("CancellationDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime?>("CancellationRequestedDate")
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime>("CreatedAt")
@@ -360,6 +436,10 @@ namespace WandleWheelhouse.Api.Migrations
                     b.Property<string>("AddressLine2")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("AvatarUrl")
+                        .HasMaxLength(2048)
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("City")
                         .HasColumnType("TEXT");
 
@@ -368,6 +448,9 @@ namespace WandleWheelhouse.Api.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Country")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime?>("DeletedAt")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Email")
@@ -381,6 +464,9 @@ namespace WandleWheelhouse.Api.Migrations
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("LastName")
                         .IsRequired()
@@ -497,12 +583,27 @@ namespace WandleWheelhouse.Api.Migrations
                     b.Navigation("Author");
                 });
 
+            modelBuilder.Entity("WandleWheelhouse.Api.Models.ContactInquiry", b =>
+                {
+                    b.HasOne("WandleWheelhouse.Api.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("WandleWheelhouse.Api.Models.Donation", b =>
                 {
+                    b.HasOne("WandleWheelhouse.Api.Models.Subscription", "Subscription")
+                        .WithMany()
+                        .HasForeignKey("SubscriptionId");
+
                     b.HasOne("WandleWheelhouse.Api.Models.User", "User")
                         .WithMany("Donations")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.SetNull);
+
+                    b.Navigation("Subscription");
 
                     b.Navigation("User");
                 });

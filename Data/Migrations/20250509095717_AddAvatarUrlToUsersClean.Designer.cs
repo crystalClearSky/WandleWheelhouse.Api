@@ -8,11 +8,11 @@ using WandleWheelhouse.Api.Data;
 
 #nullable disable
 
-namespace WandleWheelhouse.Api.Migrations
+namespace WandleWheelhouse.Api.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250502122944_AddAvatarUrlToUser")]
-    partial class AddAvatarUrlToUser
+    [Migration("20250509095717_AddAvatarUrlToUsersClean")]
+    partial class AddAvatarUrlToUsersClean
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -243,6 +243,9 @@ namespace WandleWheelhouse.Api.Migrations
                     b.Property<string>("DonorLastName")
                         .HasColumnType("TEXT");
 
+                    b.Property<bool>("IsRecurring")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int>("Method")
                         .HasColumnType("INTEGER");
 
@@ -251,6 +254,9 @@ namespace WandleWheelhouse.Api.Migrations
 
                     b.Property<int>("Status")
                         .HasColumnType("INTEGER");
+
+                    b.Property<Guid?>("SubscriptionId")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("TransactionId")
                         .HasColumnType("TEXT");
@@ -262,6 +268,8 @@ namespace WandleWheelhouse.Api.Migrations
                         .HasColumnType("TEXT");
 
                     b.HasKey("DonationId");
+
+                    b.HasIndex("SubscriptionId");
 
                     b.HasIndex("UserId");
 
@@ -512,10 +520,16 @@ namespace WandleWheelhouse.Api.Migrations
 
             modelBuilder.Entity("WandleWheelhouse.Api.Models.Donation", b =>
                 {
+                    b.HasOne("WandleWheelhouse.Api.Models.Subscription", "Subscription")
+                        .WithMany()
+                        .HasForeignKey("SubscriptionId");
+
                     b.HasOne("WandleWheelhouse.Api.Models.User", "User")
                         .WithMany("Donations")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.SetNull);
+
+                    b.Navigation("Subscription");
 
                     b.Navigation("User");
                 });

@@ -1,11 +1,15 @@
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\appsettings.json
+C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\WandleWheelhouse.Api.staticwebassets.runtime.json
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\WandleWheelhouse.Api.staticwebassets.endpoints.json
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\WandleWheelhouse.Api.exe
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\WandleWheelhouse.Api.deps.json
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\WandleWheelhouse.Api.runtimeconfig.json
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\WandleWheelhouse.Api.dll
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\WandleWheelhouse.Api.pdb
+C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\AngleSharp.dll
+C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\AngleSharp.Css.dll
+C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\HtmlSanitizer.dll
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\Humanizer.dll
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -41,6 +45,8 @@ C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelho
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\SQLitePCLRaw.core.dll
@@ -134,6 +140,7 @@ C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelho
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\obj\Debug\net8.0\WandleWheelhouse.Api.csproj.CoreCompileInputs.cache
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\obj\Debug\net8.0\WandleWheelhouse.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\obj\Debug\net8.0\WandleWheelhouse.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\obj\Debug\net8.0\WandleWheelhouse.Api.sourcelink.json
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\obj\Debug\net8.0\scopedcss\bundle\WandleWheelhouse.Api.styles.css
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\obj\Debug\net8.0\staticwebassets.development.json
@@ -150,8 +157,3 @@ C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelho
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\obj\Debug\net8.0\WandleWheelhouse.Api.pdb
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\obj\Debug\net8.0\WandleWheelhouse.Api.genruntimeconfig.cache
 C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\obj\Debug\net8.0\ref\WandleWheelhouse.Api.dll
-C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\obj\Debug\net8.0\WandleWheelhouse.Api.sourcelink.json
-C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\WandleWheelhouse.Api.staticwebassets.runtime.json
-C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\AngleSharp.dll
-C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\AngleSharp.Css.dll
-C:\Users\Justice\Desktop\Projects\Web Development\Project 29042025\WandleWheelhouse\src\WandleWheelhouse.Api\bin\Debug\net8.0\HtmlSanitizer.dll

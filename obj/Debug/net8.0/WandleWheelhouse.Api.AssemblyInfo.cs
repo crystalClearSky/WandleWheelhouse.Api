@@ -13,7 +13,7 @@ using System.Reflection;
 // [assembly: System.Reflection.AssemblyCompanyAttribute("WandleWheelhouse.Api")]
 // [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 // [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-// [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22f1d577a3d5d74de91257d249f9b798a344072a")]
+// [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac5f2ce0c8d115a14d4ab91c35b2991addbeeb5b")]
 // [assembly: System.Reflection.AssemblyProductAttribute("WandleWheelhouse.Api")]
 // [assembly: System.Reflection.AssemblyTitleAttribute("WandleWheelhouse.Api")]
 // [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -288,6 +288,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\9103df17-799f-4fb7-9744-0466e34ee138.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\9c6c018c-732a-49a0-afda-e096e3c7de07.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WandleWheelhouse.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WandleWheelhouse.Api</BasePath>
+      <RelativePath>uploads/avatars/9c6c018c-732a-49a0-afda-e096e3c7de07.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>h8taodqx5q</Fingerprint>
+      <Integrity>gf6j+wUYFagNcxUGjo1j1XJ06KkYckno16bVVZUWq0c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\9c6c018c-732a-49a0-afda-e096e3c7de07.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\avatars\a3c7d56a-a6b6-4c4b-b979-25c6dd4c53a0.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>WandleWheelhouse.Api</SourceId>
